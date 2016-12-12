@@ -1,0 +1,94 @@
+body {
+  margin: 0px;
+  margin-bottom: 60px;
+}
+
+@font-face {
+    font-family: jediFont;
+    src: url(fonts/Starjhol.woff);
+}
+
+.hero {
+  background-image: url(media/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.hero-title {
+  font-family: 'jediFont', sans-serif;
+  position:absolute;
+  top:30%;
+  text-align:center;
+  width:100%;
+  color:white;
+  font-size:10vw;
+  transform: translate(0,-50%);
+}
+
+.hero-subtitle {
+  font-family: 'Titillium Web', sans-serif;
+  position:absolute;
+  top:60%;
+  text-align:center;
+  width:100%;
+  color:white;
+  font-size:5vw;
+  transform: translate(0,-50%);
+}
+
+.content {
+  width: 90%;
+  margin-left: 5%
+}
+
+.clip-circle {
+  width: 140px;
+  margin: 10px;
+  -webkit-clip-path: circle(70px at center);
+  clip-path: circle(70px at center);
+}
+
+.quote {
+  font-size: 3vw; /*vw stands for viewport width and it scales our font-size relative to the viewport width*/
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.chat-item {
+    display: flex;
+    justify-content:left;
+    align-items:center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 1vw;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 0.5em;
+}
+
+.chat-item h1{
+    width: 75%;
+}
+
+.chat-item.left{
+    border-left-width: 20px;
+}
+.chat-item.right{
+    border-right-width: 20px;
+}
+
+.hans {
+  background-color: #D8D8C0;
+  border-color: #483018;
+}
+
+.greedo {
+  background-color: #DBC88C;
+  border-color: #60A8A5;
+  color: black;
+}
+
+.chewie {
+  background-color: #C4AB85;
+  border-color: #C18C40;
+}
