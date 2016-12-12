@@ -4,7 +4,7 @@
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="stylesheets/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="stylesheets/materialize.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="stylesheets/styles.css"  media="screen,projection"/>
 
     <!--Let browser know website is optimized for mobile-->
@@ -15,33 +15,33 @@
       <nav class="top-nav">
         <div class="container">
           <div class="nav-wrapper">
-            <a class="page-title">Candy Cane</a>
+            <a class="page-title">Wacky Candy Canes</a>
             <a href="#!" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="side-nav fixed" style="transform: translateX(0px);">
-              <li class="logo"><a id="logo-container" href="http://materializecss.com/" class="brand-logo">
-                <object id="front-page-logo" type="image/svg+xml" data="res/materialize.svg">Your browser does not support SVG</object></a>
+              <li class="no-padding">
+                    <div class="logo no-padding">
+
+                    </div>
               </li>
               <li class="no-padding">
                 <ul class="collapsible collapsible-accordion">
-                  <li class="bold active"><a class="collapsible-header active waves-effect waves-teal">Candy Cane</a>
+                  <li class="bold active"><a class="collapsible-header active waves-effect waves-orange">Wacky Candy Canes</a>
                     <div class="collapsible-body" style="display: block;">
                       <ul>
-                        <li class="active"><a href="badges.html">About</a></li>
-                        <li><a href="buttons.html">Getting Started</a></li>
-                        <li><a href="breadcrumbs.html">Divs</a></li>
-                        <li><a href="cards.html">Backgrounds</a></li>
-                        <li><a href="chips.html">Box Model</a></li>
+                        <li><a href="#objective-section">Objective</a></li>
+                        <li><a href="#learning-outcomes-section">Learning Outcomes</a></li>
+                        <li><a href="#setup-section">Setup</a></li>
+                        <li><a href="#header-section">Create Header</a></li>
                       </ul>
                     </div>
                   </li>
-                  <li class="bold"><a class="collapsible-header  waves-effect waves-teal">Chatter</a>
+                  <li class="bold"><a class="collapsible-header  waves-effect waves-orange">Talking Heads</a>
                     <div class="collapsible-body">
                       <ul>
-                        <li><a href="carousel.html">About</a></li>
-                        <li><a href="collapsible.html">Getting Started</a></li>
-                        <li><a href="dialogs.html">Firebase</a></li>
-                        <li><a href="dropdown.html">Events</a></li>
-                        <li><a href="media.html">CSS</a></li>
+                        <li><a href="#">Objective</a></li>
+                        <li><a href="#">Learning Outcomes</a></li>
+                        <li><a href="#">Setup</a></li>
+                        <li><a href="#">Etc...</a></li>
                       </ul>
                     </div>
                   </li>
@@ -54,13 +54,74 @@
     </header>
   <main>
     <div class="container">
-      <h1>Code here</h1>
+
+      <div class="col s12 m7">
+        <div id="objective-section" class="row">
+            <h2>Objective</h2>
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="res/wacky-candy-canes-480p.png">
+                <!-- <span class="card-title">Wacky Candy Canes</span> -->
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>Wacky Candy Canes is a simple and fun html and css web application that aims to reinforce critical css concepts, such as DIVS.</p><br>
+                  <p>Let's build this application together and then brand it with your own personal style!</p>
+                </div>
+                <div class="card-action">
+                  <a href="#">View Completed Application</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="learning-outcomes-section" class="row">
+            <h2>Learning Outcomes</h2>
+            <h6>HTML</h6>
+              <div class="objective hoverable">Basic HTML Structure</div>
+              <div class="objective hoverable">External Stylesheets</div>
+              <div class="objective hoverable">Divs</div>
+            <h6>CSS</h6>
+            <div class="objective hoverable">Padding and Margin</div>
+            <div class="objective hoverable">Background Images</div>
+            <div class="objective hoverable">IDs and Classes</div>
+            <div class="objective hoverable">Centering text</div>
+            <div class="objective hoverable">Animations</div>
+            <h6>Design</h6>
+            <div class="objective hoverable">Seamless background patterns</div>
+          </div>
+          <div id="setup-section" class="row">
+            <h3>Setup</h3>
+            <p>Create a new project folder, called <span class="chip">wacky-candy-canes.</span></p>
+            <p>Create your standard boiler plate <span class="chip">index.html</span>page AND <span class="chip">style.css</span>.</p>
+            <script src="https://gist.github.com/cfreder2/52d386f69af4f68427226fb374987fd7.js"></script>
+          </div>
+          <div id="header-section" class="row">
+            <h3>Create Header</h3>
+            <p>Let's write the code to build the header and put it in the body of our <span class="chip">index.html</span> page.</p>
+            <ol><li>We want our header to touch the left and right edges of our browser window.</li><li>We want to make sure title is centered in the header.</li></ol>
+            <p data-height="265" data-theme-id="light" data-slug-hash="vyzXmY" data-default-tab="html,result" data-user="cfreder2" data-embed-version="2" data-pen-title="vyzXmY" class="codepen">See the Pen <a href="http://codepen.io/cfreder2/pen/vyzXmY/">vyzXmY</a> by Chris Frederick (<a href="http://codepen.io/cfreder2">@cfreder2</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+            <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+            <div class="card-panel red lighten-2">
+              This code above has two problems.  What are they?
+            </div>
+              <ul class="collapsible" data-collapsible="accordion">
+               <li>
+                 <div class="collapsible-header"><i class="material-icons">visibility</i>First Problem</div>
+                 <div class="collapsible-body"><p>Notice that we still have some white space at the edges of our browser!</p></div>
+               </li>
+               <li>
+                 <div class="collapsible-header"><i class="material-icons">visibility</i>Second Problem</div>
+                 <div class="collapsible-body"><p>Notice that our title is not centered vertically in our header!</p></div>
+               </li>
+             </ul>
+          </div>
+      </div>
     </div>
   </main>
   <footer class="page-footer">
     <!--Scripts-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/bin/materialize.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 
     <div class="container">
