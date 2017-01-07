@@ -11,7 +11,7 @@ body {
 .hero {
   background-image: url(media/hero.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-position: center;
   height: 100vh;
 }
 
@@ -85,7 +85,6 @@ body {
 .greedo {
   background-color: #DBC88C;
   border-color: #60A8A5;
-  color: black;
 }
 
 .chewie {
