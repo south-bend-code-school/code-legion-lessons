@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+}
+#content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#mainImage {
+  background-image: url(forest.jpg);
+  width: 800px;
+  height:  600px;
+}
+
+#deer {
+  position: relative;
+  left:24px;
+  top:389px;
+  height: 100px;
+  width: 100px;
+}
+
+#deer_front {
+  background-image: url(deer.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#deer_back {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#castle {
+  position: relative;
+  left:375px;
+  top:121px;
+  height: 100px;
+  width: 100px;
+}
+
+#castle_front {
+  background-image: url(castle.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#castle_back {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
