@@ -11,12 +11,59 @@ body {
   background-image: url(forest.jpg);
   width: 800px;
   height:  600px;
+  position:relative;
+}
+
+#sun {
+  position: absolute;
+  top:0px;
+  left: 0px;
+  height: 100px;
+  width: 100px;
+}
+
+#sun_front {
+  position: absolute;
+  background-image: url(sun.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#sun_back {
+  position: absolute;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#castle {
+  position:absolute;
+  top:0px;
+  left: 0px;
+  height: 100px;
+  width: 100px;
+}
+
+#castle_front {
+  position: absolute;
+  background-image: url(castle.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#castle_back {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #deer {
-  position: relative;
-  left:24px;
-  top:389px;
+  position:absolute;
+  top:0px;
+  left: 0px;
   height: 100px;
   width: 100px;
 }
@@ -28,27 +75,6 @@ body {
 }
 
 #deer_back {
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#castle {
-  position: relative;
-  left:375px;
-  top:121px;
-  height: 100px;
-  width: 100px;
-}
-
-#castle_front {
-  background-image: url(castle.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-#castle_back {
   background-color: white;
   display: flex;
   align-items: center;
