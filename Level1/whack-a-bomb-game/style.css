@@ -1,0 +1,42 @@
+@font-face {
+    font-family: avengerFont;
+    src: url(avenger.woff);
+}
+
+body {
+  background-color: lightgrey;
+  font-family: avengerFont;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#scoreBoard {
+  text-align: center;
+}
+
+.mole {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  background-color: blue;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+#startBtn {
+  width: 80%;
+  height: 60px;
+  margin-left: 10%;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+}
+
+#startBtn:hover {
+  background-color: darkgrey;
+}
